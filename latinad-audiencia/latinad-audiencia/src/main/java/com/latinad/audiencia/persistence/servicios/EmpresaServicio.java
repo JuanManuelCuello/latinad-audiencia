@@ -85,7 +85,7 @@ public class EmpresaServicio {
             throw new ErrorServicio("ERROR: El Nombre de la empresa no puede estar vacio");
         }
 
-        if (url.contains("http://latinad.camdata.co/widget/dashboard/") == false) {
+        if (url.contains("https://latinad.camdata.co/widget/dashboard/") == false) {
             throw new ErrorServicio("ERROR: La URL es incorrecta o se encuentra vacía");
         }
 
