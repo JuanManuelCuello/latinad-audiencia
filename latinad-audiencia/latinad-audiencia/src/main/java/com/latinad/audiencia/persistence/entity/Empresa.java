@@ -21,8 +21,7 @@ import javax.persistence.Id;
 
         private String url;
 
-        @Type(type = "numeric_boolean")
-        private Boolean alta;
+        private boolean alta;
 
         /**
          * @return the id
