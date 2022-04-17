@@ -1,6 +1,7 @@
 package com.latinad.audiencia.persistence.entity;
 
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +21,7 @@ import javax.persistence.Id;
 
         private String url;
 
+        @Type(type = "numeric_boolean")
         private Boolean alta;
 
         /**
